@@ -1,0 +1,1641 @@
+{
+    "data": [
+        {
+            "path": "/api/v0/about", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "about"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/active_tasks", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_active_tasks_sensor"
+        }, 
+        {
+            "path": "/api/v0/activity_monitor_setups/{id}", 
+            "methods": [
+                "GET",
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_activitymonitorsetups"
+        }, 
+        {
+            "path": "/api/v0/activity_monitor_setups", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_activitymonitorsetups_collection"
+        }, 
+        {
+            "path": "/api/v0/alarm_occurrences/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_alarmoccurrences"
+        }, 
+        {
+            "path": "/api/v0/alarm_occurrences", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_alarmoccurrences_collection"
+        }, 
+        {
+            "path": "/api/v0/alarm_profiles/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_alarmprofile"
+        }, 
+        {
+            "path": "/api/v0/alarm_profiles", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_alarmprofile_collection"
+        }, 
+        {
+            "path": "/api/v0/alarms/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_alarms"
+        }, 
+        {
+            "path": "/api/v0/alarms", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_alarms_collection"
+        }, 
+        {
+            "path": "/api/v0/alarm_types/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_alarmtype"
+        }, 
+        {
+            "path": "/api/v0/alarm_types", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_alarmtype_collection"
+        }, 
+        {
+            "path": "/api/v0/app_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_applog"
+        }, 
+        {
+            "path": "/api/v0/app_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_applog_collection"
+        }, 
+        {
+            "path": "/api/v0/assessment_exclusions/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_assessmentexclusion"
+        }, 
+        {
+            "path": "/api/v0/assessment_exclusions", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_assessmentexclusion_collection"
+        }, 
+        {
+            "path": "/api/v0/assessment_incidents/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_assessmentincident"
+        }, 
+        {
+            "path": "/api/v0/assessment_incidents", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_assessmentincident_collection"
+        }, 
+        {
+            "path": "/api/v0/assessmentjobs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_assessmentjob"
+        }, 
+        {
+            "path": "/api/v0/assessmentjobs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_assessmentjob_collection"
+        }, 
+        {
+            "path": "/api/v0/assets/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_asset"
+        }, 
+        {
+            "path": "/api/v0/assets", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_asset_collection"
+        }, 
+        {
+            "path": "/api/v0/audit_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_auditlog"
+        }, 
+        {
+            "path": "/api/v0/audit_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_auditlog_collection"
+        }, 
+        {
+            "path": "/api/v0/auth_sources/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_authsource"
+        }, 
+        {
+            "path": "/api/v0/auth_sources", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_authsource_collection"
+        }, 
+        {
+            "path": "/api/v0/assets/{id}/available_extractors", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_available_extractors_asset"
+        }, 
+        {
+            "path": "/api/v0/policies/{id}/clone", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_clone_policy"
+        }, 
+        {
+            "path": "/api/v0/roles/{id}/clone", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_clone_role"
+        }, 
+        {
+            "path": "/api/v0/compliance_exclusions/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_complianceexclusion"
+        }, 
+        {
+            "path": "/api/v0/compliance_exclusions", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_complianceexclusion_collection"
+        }, 
+        {
+            "path": "/api/v0/compliance_incidents/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_complianceincident"
+        }, 
+        {
+            "path": "/api/v0/compliance_incidents", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_complianceincident_collection"
+        }, 
+        {
+            "path": "/api/v0/compliancejobs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_compliancejob"
+        }, 
+        {
+            "path": "/api/v0/compliancejobs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_compliancejob_collection"
+        }, 
+        {
+            "path": "/api/v0/components/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_component"
+        }, 
+        {
+            "path": "/api/v0/components", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_component_collection"
+        }, 
+        {
+            "path": "/api/v0/connectors/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_connector"
+        }, 
+        {
+            "path": "/api/v0/connectors", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_connector_collection"
+        }, 
+        {
+            "path": "/api/v0/console_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_consolelogs"
+        }, 
+        {
+            "path": "/api/v0/console_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_consolelogs_collection"
+        }, 
+        {
+            "path": "/api/v0/console_stats_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_consolestatslogs"
+        }, 
+        {
+            "path": "/api/v0/console_stats_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_consolestatslogs_collection"
+        }, 
+        {
+            "path": "/api/v0/control_points/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_controlpoint"
+        }, 
+        {
+            "path": "/api/v0/control_points", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_controlpoint_collection"
+        }, 
+        {
+            "path": "/api/v0/correlation_incidents/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_correlationincident"
+        }, 
+        {
+            "path": "/api/v0/correlation_incidents", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_correlationincident_collection"
+        }, 
+        {
+            "path": "/api/v0/correlation_rules/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_correlationrule"
+        }, 
+        {
+            "path": "/api/v0/correlation_rules", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_correlationrule_collection"
+        }, 
+        {
+            "path": "/api/v0/customer_ca_cert", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_customerpem"
+        }, 
+        {
+            "path": "/api/v0/customer_ca_cert", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_customerpem_collection"
+        }, 
+        {
+            "path": "/api/v0/custom_module_exclusions/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_custommoduleexclusion"
+        }, 
+        {
+            "path": "/api/v0/custom_module_exclusions", 
+            "methods": [
+                "GET", 
+                "POST", 
+                "PUT"
+            ], 
+            "endpoint_name": "api_custommoduleexclusion_collection"
+        }, 
+        {
+            "path": "/api/v0/custom_module_folder_hierarchies", 
+            "methods": [
+                "GET", 
+                "POST", 
+                "PUT"
+            ], 
+            "endpoint_name": "api_custommodulefolderhierarchy_collection"
+        }, 
+        {
+            "path": "/api/v0/custom_modules/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_custommodules"
+        }, 
+        {
+            "path": "/api/v0/custom_modules", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_custommodules_collection"
+        }, 
+        {
+            "path": "/api/v0/asset_discoveries/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_discovertask"
+        }, 
+        {
+            "path": "/api/v0/asset_discoveries", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_discovertask_collection"
+        }, 
+        {
+            "path": "/api/v0/asset_discoveries/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_discovertaskgroup"
+        }, 
+        {
+            "path": "/api/v0/asset_discovery_groups", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_discovertaskgroup_collection"
+        }, 
+        {
+            "path": "/api/v0/console_logs/{id}/download", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_download_consolelogs"
+        }, 
+        {
+            "path": "/api/v0/console_stats_logs/{id}/download", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_download_consolestatslogs"
+        }, 
+        {
+            "path": "/api/v0/sensor_logs/{id}/download", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_download_sensorlogs"
+        }, 
+        {
+            "path": "/api/v0/sensor_stats_logs/{id}/download", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_download_sensorstatslogs"
+        }, 
+        {
+            "path": "/api/v0/events/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_event"
+        }, 
+        {
+            "path": "/api/v0/events", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_event_collection"
+        }, 
+        {
+            "path": "/api/v0/exclusion_groups/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_exclusiongroup"
+        }, 
+        {
+            "path": "/api/v0/exclusion_groups", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_exclusiongroup_collection"
+        }, 
+        {
+            "path": "/api/v0/exclusion_group_items/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_exclusiongroupitem"
+        }, 
+        {
+            "path": "/api/v0/exclusion_group_items", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_exclusiongroupitem_collection"
+        }, 
+        {
+            "path": "/api/v0/exclusion_groups/{id}/export", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_export_exclusiongroup"
+        }, 
+        {
+            "path": "/api/v0/groups/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_group"
+        }, 
+        {
+            "path": "/api/v0/groups", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_group_collection"
+        }, 
+        {
+            "path": "/api/v0/policies/{id}/hierarchy", 
+            "methods": [
+                "GET", 
+                "POST", 
+                "PUT"
+            ], 
+            "endpoint_name": "api_hierarchy_policy"
+        }, 
+        {
+            "path": "/api/v0/tag_templates/{id}/hierarchy", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_hierarchy_tagtemplate"
+        }, 
+        {
+            "path": "/api/v0/exclusion_groups/{id}/import", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_import_exclusiongroup"
+        }, 
+        {
+            "path": "/api/v0/incidents/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_incident"
+        }, 
+        {
+            "path": "/api/v0/incidents", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_incident_collection"
+        }, 
+        {
+            "path": "/api/v0/issues/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_issues"
+        }, 
+        {
+            "path": "/api/v0/issues", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_issues_collection"
+        }, 
+        {
+            "path": "/api/v0/results/{id}/mod_results", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_mod_results_taskgroup"
+        }, 
+        {
+            "path": "/api/v0/module_configs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_moduleconfig"
+        }, 
+        {
+            "path": "/api/v0/module_configs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_moduleconfig_collection"
+        }, 
+        {
+            "path": "/api/v0/module_results/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_moduleresults"
+        }, 
+        {
+            "path": "/api/v0/module_results", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_moduleresults_collection"
+        }, 
+        {
+            "path": "/api/v0/modules/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_modules"
+        }, 
+        {
+            "path": "/api/v0/modules", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_modules_collection"
+        }, 
+        {
+            "path": "/api/v0/package_updates/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_packageupdate"
+        }, 
+        {
+            "path": "/api/v0/package_updates", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_packageupdate_collection"
+        }, 
+        {
+            "path": "/api/v0/users/{id}/password", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "api_password_user"
+        }, 
+        {
+            "path": "/api/v0/permissions/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_permission"
+        }, 
+        {
+            "path": "/api/v0/permissions", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_permission_collection"
+        }, 
+        {
+            "path": "/api/v0/policies/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_policy"
+        }, 
+        {
+            "path": "/api/v0/policies", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_policy_collection"
+        }, 
+        {
+            "path": "/api/v0/results/{id}/policy_results", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_policy_results_taskgroup"
+        }, 
+        {
+            "path": "/api/v0/results/{id}/render_report", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_render_report_taskgroup"
+        }, 
+        {
+            "path": "/api/v0/results/{id}/report_tasks", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_report_tasks_taskgroup"
+        }, 
+        {
+            "path": "/api/v0/assets/{id}/reset_snc", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_reset_snc_asset"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/retrieve_apt_keys", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_retrieve_apt_keys_sensor"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/retrieve_console_cert", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_retrieve_console_cert_sensor"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/retrieve_custom_ca_cert", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_retrieve_custom_ca_cert_sensor"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/retrieve_rfclib", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_retrieve_rfclib_sensor"
+        }, 
+        {
+            "path": "/api/v0/roles/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_role"
+        }, 
+        {
+            "path": "/api/v0/roles", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_role_collection"
+        }, 
+        {
+            "path": "/api/v0/sap_crypto/pse/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_sapcryptopse"
+        }, 
+        {
+            "path": "/api/v0/sap_crypto/pse", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_sapcryptopse_collection"
+        }, 
+        {
+            "path": "/api/v0/sap_crypto/certs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_sapcryptopsecertificate"
+        }, 
+        {
+            "path": "/api/v0/sap_crypto/certs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_sapcryptopsecertificate_collection"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_sensor"
+        }, 
+        {
+            "path": "/api/v0/sensors", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_sensor_collection"
+        }, 
+        {
+            "path": "/api/v0/sensor_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_sensorlogs"
+        }, 
+        {
+            "path": "/api/v0/sensor_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_sensorlogs_collection"
+        }, 
+        {
+            "path": "/api/v0/sensor_stats_logs/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_sensorstatslogs"
+        }, 
+        {
+            "path": "/api/v0/sensor_stats_logs", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_sensorstatslogs_collection"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/set_rfclib_version", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_set_rfclib_version_sensor"
+        }, 
+        {
+            "path": "/api/v0/sensors/{id}/stats", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_stats_sensor"
+        }, 
+        {
+            "path": "/api/v0/syslog_transports/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_syslogtransport"
+        }, 
+        {
+            "path": "/api/v0/syslog_transports", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_syslogtransport_collection"
+        }, 
+        {
+            "path": "/api/v0/tags/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_tag"
+        }, 
+        {
+            "path": "/api/v0/tags", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_tag_collection"
+        }, 
+        {
+            "path": "/api/v0/tag_attributes/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_tagattr"
+        }, 
+        {
+            "path": "/api/v0/tag_attributes", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_tagattr_collection"
+        }, 
+        {
+            "path": "/api/v0/tag_attribute_types/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_tagattributetype"
+        }, 
+        {
+            "path": "/api/v0/tag_attribute_types", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_tagattributetype_collection"
+        }, 
+        {
+            "path": "/api/v0/tag_templates/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_tagtemplate"
+        }, 
+        {
+            "path": "/api/v0/tag_templates", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_tagtemplate_collection"
+        }, 
+        {
+            "path": "/api/v0/policies/{id}/tami", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_tami_policy"
+        }, 
+        {
+            "path": "/api/v0/results/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_taskgroup"
+        }, 
+        {
+            "path": "/api/v0/results", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_taskgroup_collection"
+        }, 
+        {
+            "path": "/api/v0/transports/{id}/test", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "api_test_transport"
+        }, 
+        {
+            "path": "/api/v0/transports/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_transport"
+        }, 
+        {
+            "path": "/api/v0/transports", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_transport_collection"
+        }, 
+        {
+            "path": "/api/v0/assets/{id}/update_status", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "api_update_status_asset"
+        }, 
+        {
+            "path": "/api/v0/users/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_user"
+        }, 
+        {
+            "path": "/api/v0/users", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_user_collection"
+        }, 
+        {
+            "path": "/api/v0/user_activity_functionality/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_useractivityfunctionality"
+        }, 
+        {
+            "path": "/api/v0/user_activity_functionality", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_useractivityfunctionality_collection"
+        }, 
+        {
+            "path": "/api/v0/user_activity_incidents/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_useractivityincident"
+        }, 
+        {
+            "path": "/api/v0/user_activity_incidents", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_useractivityincident_collection"
+        }, 
+        {
+            "path": "/api/v0/messages/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_usermessages"
+        }, 
+        {
+            "path": "/api/v0/messages", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_usermessages_collection"
+        }, 
+        {
+            "path": "/api/v0/vuln_acceptance/{id}", 
+            "methods": [
+                "GET", 
+                "PUT", 
+                "DELETE"
+            ], 
+            "endpoint_name": "api_vulnerabilityacceptance"
+        }, 
+        {
+            "path": "/api/v0/vuln_acceptance", 
+            "methods": [
+                "GET", 
+                "POST"
+            ], 
+            "endpoint_name": "api_vulnerabilityacceptance_collection"
+        }, 
+        {
+            "path": "/api/v0/asset_component_snc", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "asset_component_snc"
+        }, 
+        {
+            "path": "/api/v0/coherence", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "assets_with_scans"
+        }, 
+        {
+            "path": "/api/v0/auth_sources/available_auth_sources", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "available_auth_sources"
+        }, 
+        {
+            "path": "/api/v0/compare_results", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "compare_results"
+        }, 
+        {
+            "path": "/api/v0/compliance_history", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "compliance_history"
+        }, 
+        {
+            "path": "/api/v0/confidences", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "confidences"
+        }, 
+        {
+            "path": "/api/v0/credentials/{id}", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "credentials"
+        }, 
+        {
+            "path": "/api/v0/dashboard_data", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "dashboard_data"
+        }, 
+        {
+            "path": "/api/v0/report_tasks/{report_id}/download", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "download_report"
+        }, 
+        {
+            "path": "/api/v0/email", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "email"
+        }, 
+        {
+            "path": "/api/v0/enable_automatic_updates", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "enable_automatic_updates"
+        }, 
+        {
+            "path": "engine/create_activity_incident", 
+            "methods": [], 
+            "endpoint_name": "engine.create_activity_incident"
+        }, 
+        {
+            "path": "engine/create_incident", 
+            "methods": [], 
+            "endpoint_name": "engine.create_incident"
+        }, 
+        {
+            "path": "engine/snc_lib_file/{file}", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "engine.download_snc_lib_file"
+        }, 
+        {
+            "path": "engine/snc_pse_file/{id}", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "engine.download_snc_pse_file"
+        }, 
+        {
+            "path": "engine/task_result", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "engine.task_result"
+        }, 
+        {
+            "path": "engine/update_event", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "engine.update_event"
+        }, 
+        {
+            "path": "/api/v0/full_tag_hierarchy", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "full_tag_hierarchy"
+        }, 
+        {
+            "path": "/api/v0/assets-licenses", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_assets_licenses"
+        }, 
+        {
+            "path": "/api/v0/ssl_cert", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_certificate"
+        }, 
+        {
+            "path": "/api/v0/configuration", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_configuration"
+        }, 
+        {
+            "path": "/api/v0/licenses", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_licenses"
+        }, 
+        {
+            "path": "api/v0/console/stats", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_stats"
+        }, 
+        {
+            "path": "/api/v0/style_configuration", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_style_configuration"
+        }, 
+        {
+            "path": "/api/v0/transport_templates", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "get_transport_templates"
+        }, 
+        {
+            "path": "/api/v0/incidents_export", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "incidents_export"
+        }, 
+        {
+            "path": "/api/v0/rfc_incoming_connections", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "incoming_connections"
+        }, 
+        {
+            "path": "/api/v0/sso_auth_sources/{id}", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "init_sso"
+        }, 
+        {
+            "path": "/api/v0/licensed_apps", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "licensed_apps"
+        }, 
+        {
+            "path": "/api/v0/licenses/{id}/link-asset/{asset_id}", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "link_asset"
+        }, 
+        {
+            "path": "/api/v0/list_types", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "list_types"
+        }, 
+        {
+            "path": "/api/v0/logo_image", 
+            "methods": [], 
+            "endpoint_name": "logo_image"
+        }, 
+        {
+            "path": "/api/v0/meta", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "meta"
+        }, 
+        {
+            "path": "/api/v0/module_categories", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "module_categories"
+        }, 
+        {
+            "path": "/api/v0/coherence/{id}/module-executions", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "module_executions_by_asset"
+        }, 
+        {
+            "path": "/api/v0/licenses", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "new_license"
+        }, 
+        {
+            "path": "/api/v0/performance", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "performance"
+        }, 
+        {
+            "path": "/api/v0/permission_objects", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "permission_objects"
+        }, 
+        {
+            "path": "/OSP.sso/SAML2/{name}/POST", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "post_sso"
+        }, 
+        {
+            "path": "/api/v0/refresh_rfc_destinations", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "refresh_rfc_destinations"
+        }, 
+        {
+            "path": "/api/v0/report_tasks", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "render_report"
+        }, 
+        {
+            "path": "/api/v0/report_tasks/{id}", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "report_task_get"
+        }, 
+        {
+            "path": "/api/v0/rfc_destinations", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "rfc_destinations_get"
+        }, 
+        {
+            "path": "/api/v0/rfc_destinations_all", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "rfc_destinations_get_all"
+        }, 
+        {
+            "path": "/api/v0/rfc_destinations_csv", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "rfc_destinations_get_csv"
+        }, 
+        {
+            "path": "/api/v0/assessmentjobs/{id}/run", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "run_assessment"
+        }, 
+        {
+            "path": "/api/v0/compliancejobs/{id}/run", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "run_compliance"
+        }, 
+        {
+            "path": "/api/v0/sap_crypto/lib", 
+            "methods": [
+                "GET", 
+                "POST", 
+                "PUT"
+            ], 
+            "endpoint_name": "sap_crypto_lib"
+        }, 
+        {
+            "path": "/api/v0/auth", 
+            "methods": [
+                "POST", 
+                "DELETE", 
+                "GET"
+            ], 
+            "endpoint_name": "satori_auth"
+        }, 
+        {
+            "path": "/api/v0/settings", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "settings"
+        }, 
+        {
+            "path": "/api/v0/severities", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "severities"
+        }, 
+        {
+            "path": "/api/v0/sso_auth_sources", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "sso_auth_sources"
+        }, 
+        {
+            "path": "/OSP.sso/SAML2/METADATA/{id}", 
+            "methods": [], 
+            "endpoint_name": "sso_saml_download_metadata"
+        }, 
+        {
+            "path": "/api/v0/test_email", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "test_email"
+        }, 
+        {
+            "path": "/api/v0/topology_map", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "topology_map"
+        }, 
+        {
+            "path": "/api/v0/topology_map_csv", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "topology_map_csv"
+        }, 
+        {
+            "path": "/api/v0/ssl_cert", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "update_certificate"
+        }, 
+        {
+            "path": "/api/v0/configuration/{namespace}", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "update_configuration"
+        }, 
+        {
+            "path": "/api/v0/update_correlation_rules", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "update_correlation_rules"
+        }, 
+        {
+            "path": "/api/v0/update_now", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "update_now"
+        }, 
+        {
+            "path": "/api/v0/user_alarms", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "user_alarms"
+        }, 
+        {
+            "path": "/api/v0/user_messages", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "user_messages"
+        }, 
+        {
+            "path": "/api/v0/user_password", 
+            "methods": [
+                "PUT"
+            ], 
+            "endpoint_name": "user_password"
+        }, 
+        {
+            "path": "/api/v0/user_profile", 
+            "methods": [
+                "GET", 
+                "PUT"
+            ], 
+            "endpoint_name": "user_profile"
+        }, 
+        {
+            "path": "/api/v0/auth_sources/validate_auth_source_config", 
+            "methods": [
+                "POST"
+            ], 
+            "endpoint_name": "validate_auth_source_config"
+        }, 
+        {
+            "path": "/api/v0/xml_scan_reports.zip", 
+            "methods": [
+                "GET"
+            ], 
+            "endpoint_name": "xml_scan_reports"
+        }
+    ]
+}
